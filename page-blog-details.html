@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta configuration -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Page title -->
+    <title>Namespa - Beauty Blog Details</title>
+
+    <!-- Linking CSS files -->
+    <link rel="stylesheet" href="./resource/css/style.css">
+    <link rel="stylesheet" href="./resource/css/home-two.css">
+    <link rel="stylesheet" href="./resource/css/page-blog-details.css">
+    <link rel="stylesheet" href="./resource/css/queries.css">
+    <link rel="stylesheet" href="./resource/css/animation.css">
+    <link rel="stylesheet" href="./vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./vendor/fonts/fontawesome-5.0.13/css/all.css">
+    <link rel="stylesheet" href="./vendor/fonts/natuspa-font/css/natuspa-icons.css">
+    <link rel="stylesheet" href="./vendor/js/slick/slick.css">
+    <link rel="stylesheet" href="./vendor/js/slick/slick-theme.css">
+    <link rel="stylesheet" href="./vendor/js/datetimepicker-master/jquery.datetimepicker.css">
+    <link rel="stylesheet" href="./vendor/js/Magnific-Popup-master/magnific-popup.css">
+
+    <!-- Favicons for different devices -->
+    <link rel="apple-touch-icon" sizes="76x76" href="/resource/favicons-2/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resource/favicons-2/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resource/favicons-2/favicon-16x16.png">
+    <link rel="manifest" href="/resource/favicons-2/site.webmanifest">
+    <link rel="mask-icon" href="/resource/favicons-2/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/resource/favicons-2/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/resource/favicons-2/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body class="preload">
+    <!-- Loading animation -->
+    <div class="loader" id="loader">
+        <div class="loader-inner">
+            <img src="./imgs/loader-2.svg" alt="Loader" class="loader-img">
+        </div>
+    </div>
+
+    <!-- Overlay for focus -->
+    <div id="overlay" style="display: none;"></div>
+
+    <!-- Scroll-to-top button -->
+    <a class="scroll-top link-text" href="#home">Top</a>
+
+    <!-- Page wrapper -->
+    <div class="page-wrapper">
+        <!-- Header section -->
+        <header id="home" class="other-pages">
+            <!-- Navigation bar -->
+            <nav class="navbar navbar-expand-xl navbar-dark">
+                <!-- Website logo -->
+                <a class="navbar-brand main-logo" href="index.html" rel="home" title="Namespa">
+                    <img src="./imgs/logo_white.png" alt="Namespa Logo" width="193" height="76">
+                </a>
+                <!-- Mobile menu toggle button -->
+                <button class="navbar-toggler mobile-nav-icon" type="button" data-toggle="collapse"
+                    data-target="#main-nav-mobile">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Main navigation menu -->
+                <div class="collapse navbar-collapse main-nav">
+                    <ul class="navbar-nav menu" id="mainNav">
+                        <li class="nav-item menu-item"><a class="nav-link" href="index.html">Trang Chủ</a></li>
+                        <li class="nav-item menu-item"><a class="nav-link" href="about-us.html">Giới thiệu</a></li>
+                        <li class="nav-item menu-item"><a class="nav-link" href="page-blog.html">Blog làm đẹp</a></li>
+                        <li class="nav-item menu-item"><a class="nav-link" href="services.html">Dịch vụ</a></li>
+                        <li class="nav-item menu-item"><a class="nav-link" href="page-pricing.html">Ưu đãi</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Page title -->
+            <h1 class="page-title">our blog</h1>
+
+            <!-- Popup menu -->
+            <div class="menu-popup">
+                <span class="close-icon"><i class="fal fa-times"></i></span>
+                <div class="content-wrap">
+                    <h1 class="title">Namespa</h1>
+                    <p class="text">
+                        For us, it’s been about a journey, not a race to build a legacy and reputation of being the
+                        best, delivering the best and creating a Namespa culture that we are proud of each and every
+                        day.
+                    </p>
+                    <span class="menu-popup-img"><img src="./imgs/summer-sale.jpg" alt="Sale"></span>
+                    <div class="contact-popup-info">
+                        <h2 class="title">Contact Us</h2>
+                        <div class="address"><span>145 Franklin St, Redpoint Eval</span></div>
+                        <div class="email"><span><a href="mailto:info@namespa.com">info@namespa.com</a></span></div>
+                        <div class="phone"><span>+84 933 1235 113</span></div>
+                        <div class="social-media-icons">
+                            <div class="social-media"><a class="social-popup-icon" target="_blank" href="#"><i
+                                        class="fab fa-linkedin-in"></i></a></div>
+                            <div class="social-media"><a class="social-popup-icon" target="_blank"
+                                    href="https://www.facebook.com/HuynhDieuQuocQuan"><i
+                                        class="fab fa-facebook-f"></i></a></div>
+                            <div class="social-media"><a class="social-popup-icon" target="_blank" href="#"><i
+                                        class="fab fa-twitter"></i></a></div>
+                            <div class="social-media"><a class="social-popup-icon" target="_blank" href="#"><i
+                                        class="fab fa-google-plus-g"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="blog-details container-fluid">
+            <div class="spacer-clearfix" style="height: 80px;"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="site-content">
+                            <h2 class="heading"></h2>
+                            <div class="date"></div>
+                            <div class="blog-img"><img src="" alt=""></div>
+                            <button class="speak-btn" aria-label="Đọc to bài blog" data-speaking="false">
+                                <i class="fas fa-volume-up"></i>
+                            </button>
+                            <div class="main-content"></div>
+                            <div class="post-tags"></div>
+                            <div class="social-share">
+                                <span>Share: </span>
+                                <ul class="post-social">
+                                    <li class="social-media" style="background-color: #4b64a6;"><a target="_blank"
+                                            href="https://www.facebook.com/HuynhDieuQuocQuan"><i
+                                                class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li class="social-media" style="background-color: #0cace4;"><a target="_blank"
+                                            href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li class="social-media" style="background-color: #f12756;"><a target="_blank"
+                                            href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="author">
+                                <div class="author-description">
+                                    <div class="avatar"><img src="" alt="Author"></div>
+                                    <div class="text-wrap">
+                                        <h3 class="name"></h3>
+                                        <p class="text"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="site-bar">
+                            <div class="search">
+                                <input type="text" placeholder="Search" aria-label="Search blog posts">
+                                <span class="search-btn" role="button" aria-label="Search"><i
+                                        class="fal fa-search"></i></span>
+                            </div>
+                            <span class="recent-news">Recent News</span>
+                            <div class="blog-post"></div>
+                            <div class="post-tags">
+                                <span>Tags</span>
+                                <a href="#" class="tags">Treatment</a>
+                                <a href="#" class="tags">Spa</a>
+                                <a href="#" class="tags">Manicure</a>
+                                <a href="#" class="tags">Mordern</a>
+                                <a href="#" class="tags">Care</a>
+                                <a href="#" class="tags">Glamour</a>
+                                <a href="#" class="tags">Physiotherapy</a>
+                                <a href="#" class="tags">Wellness Center</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid bg-gray">
+                <div class="spacer-clearfix" style="height: 80px;"></div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="comments container">
+                            <h4 class="title">Comments <span class="numbers"></span></h4>
+                            <div class="main-comments">
+                                <div class="comment-item">
+                                    <div class="author-img"><img src="./imgs/comment/1.png" alt="Author"></div>
+                                    <div class="text-wrap">
+                                        <div class="author-name">Natasha Bedingfield</div>
+                                        <div class="date">Mon Feb 18 2019 16:42:04 GMT+01</div>
+                                        <a href="#" class="comment-reply">Reply</a>
+                                        <p class="comment-text">Thanks for the great tips! Instagram is the most
+                                            problematic social media channel when it comes to trying to lead customers
+                                            down the funnel and to your site.</p>
+                                    </div>
+                                </div>
+                                <div class="comment-item">
+                                    <div class="author-img"><img src="./imgs/comment/2.png" alt="Author"></div>
+                                    <div class="text-wrap">
+                                        <div class="author-name">Corinna Keefe</div>
+                                        <div class="date">Mon Feb 18 2019 17:49:14 GMT+01</div>
+                                        <a href="#" class="comment-reply">Reply</a>
+                                        <p class="comment-text">Thanks for sharing these useful tips. #Hashtag is very
+                                            useful to rank a post. It will help me a lot.</p>
+                                    </div>
+                                </div>
+                                <div class="comment-item">
+                                    <div class="author-img"><img src="./imgs/comment/3.png" alt="Author"></div>
+                                    <div class="text-wrap">
+                                        <div class="author-name">Jaquan Rolfson</div>
+                                        <div class="date">Mon Feb 18 2019 19:45:27 GMT+07</div>
+                                        <a href="#" class="comment-reply">Reply</a>
+                                        <p class="comment-text">Awesome article. I personally use a linktree in my bio
+                                            where i keep my most important articles and posts.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="title">Leave a comment</h4>
+                            <div class="comment-form">
+                                <form action="#" class="row">
+                                    <div class="name-wrap col-sm-12 col-md-6 pl-0">
+                                        <input type="text" placeholder="Full Name*" id="fullName"
+                                            aria-label="Full Name">
+                                        <div class="error" style="display: none;">( <span>*</span> )</div>
+                                    </div>
+                                    <div class="email-wrap col-sm-12 col-md-6 pl-0">
+                                        <input type="text" placeholder="E-mail*" id="email" aria-label="Email">
+                                        <div class="error" style="display: none;">( <span>*</span> )</div>
+                                    </div>
+                                    <div class="message-wrap col-sm-12 pl-0">
+                                        <textarea name="message" id="comment" placeholder="Comment*"
+                                            aria-label="Comment"></textarea>
+                                        <div class="error" style="display: none;">( <span>*</span> )</div>
+                                    </div>
+                                    <div class="post-btn-wrap col-sm-12 pl-0">
+                                        <div class="btn book-now-btn post-btn col-sm-12">post comment</div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="spacer-clearfix" style="height: 80px;"></div>
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="container-fluid">
+                <div class="spacer-clearfix" style="height: 80px;"></div>
+                <div class="row">
+                    <div class="maps-embed col-md-12 col-lg-4 p-0">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.1586172889265!2d106.79692831526064!3d10.87553776032924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d8a1768e1d03%3A0x38d3ea53e0581ae0!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBLaG9hIGjhu41jIFThu7E bmhpw6puLCBDxqEgc-G7nyBMaW5oIFRydW5nLCBUaOG7pyDEkOG7qWMsIMSQSFFHIFRQSENNLg!5e0!3m2!1svi!2s!4v1581684581250!5m2!1svi!2s"
+                            width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""
+                            loading="lazy"></iframe>
+                    </div>
+                    <div class="maps-contact col-md-12 col-lg-6 offset-lg-1">
+                        <div class="footer-info">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="./imgs/logo_white.png" alt="Namespa Logo"
+                                        width="150"></a>
+                            </div>
+                            <h2 class="footer-title">Namespa</h2>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-map-marker-alt"></i><span>145 Franklin St, Redpoint Eval</span>
+                            </div>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-envelope"></i><a
+                                    href="mailto:info@namespa.com"><span>info@namespa.com</span></a>
+                            </div>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-phone-alt"></i><a href="tel:+849331235113">+84 933 1235 113</a>
+                            </div>
+                            <ul class="footer-social">
+                                <li class="social-media"><a class="social-icon facebook" target="_blank"
+                                        href="https://www.facebook.com/HuynhDieuQuocQuan"><i
+                                            class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-media"><a class="social-icon zalo" target="_blank"
+                                        href="https://zalo.me"><i class="fas fa-comment"></i></a></li>
+                                <li class="social-media"><a class="social-icon instagram" target="_blank"
+                                        href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>Copyright © 2025 Namespa. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./vendor/js/jquery-v3.4.1.min.js"></script>
+    <script src="./vendor/js/bootstrap.min.js"></script>
+    <script src="./vendor/js/jquery.waypoints.min.js"></script>
+    <script src="./vendor/js/slick/slick.min.js"></script>
+    <script src="./vendor/js/datetimepicker-master/build/jquery.datetimepicker.full.js"></script>
+    <script src="./vendor/js/Magnific-Popup-master/jquery.magnific-popup.min.js"></script>
+    <script src="./vendor/js/moment.min.js"></script>
+    <script src="./resource/js/script.js"></script>
+    <script src="./resource/js/blog-post.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Get the post ID from the URL query parameter
+            const urlParams = new URLSearchParams(window.location.search);
+            const postId = urlParams.get('id');
+
+            // Fetch blog posts from JSON
+            $.getJSON('./resource/data/blog-posts.json', function (data) {
+                const post = data.find(p => p.id == postId);
+                if (!post) {
+                    $('.site-content').html('<p>Blog post not found.</p>');
+                    return;
+                }
+
+                // Update page title
+                document.title = `${post.title} - Namespa`;
+
+                // Populate post content
+                $('.site-content .heading').text(post.title);
+                $('.site-content .date').text(`${post.date.toUpperCase()} - ${post.author.name.toUpperCase()}`);
+                $('.site-content .blog-img img').attr('src', post.image).attr('alt', post.title);
+
+                // Render main content
+                let contentHtml = '';
+                post.content.forEach(item => {
+                    if (item.type === 'sub-title') {
+                        contentHtml += `<h6 class="sub-title">${item.text}</h6>`;
+                    } else if (item.type === 'paragraph') {
+                        contentHtml += `<p>${item.text}</p>`;
+                    } else if (item.type === 'blockquote') {
+                        contentHtml += `<blockquote>${item.text}</blockquote>`;
+                    }
+                });
+                $('.site-content .main-content').html(contentHtml);
+
+                // Render tags
+                let tagsHtml = post.tags.map(tag => `<a href="#" class="tag">${tag}</a>`).join('');
+                $('.site-content .post-tags').html(tagsHtml);
+
+                // Update social share links
+                const currentUrl = encodeURIComponent(window.location.href);
+                const postTitle = encodeURIComponent(post.title);
+                $('.post-social .social-media').each(function () {
+                    const platform = $(this).find('i').attr('class').match(/fa-(facebook-f|twitter|instagram)/)[1];
+                    if (platform === 'facebook-f') {
+                        $(this).find('a').attr('href', `https://www.facebook.com/sharer/sharer.php?u=${currentUrl}`);
+                    } else if (platform === 'twitter') {
+                        $(this).find('a').attr('href', `https://twitter.com/intent/tweet?url=${currentUrl}&text=${postTitle}`);
+                    } else if (platform === 'instagram') {
+                        $(this).find('a').attr('href', 'https://www.instagram.com');
+                    }
+                });
+
+                // Populate author
+                $('.author .avatar img').attr('src', post.author.image).attr('alt', post.author.name);
+                $('.author .name').text(post.author.name);
+                $('.author .text').text(`"${post.author.bio}"`);
+
+                // Populate recent news (show 3 latest posts excluding current)
+                const recentPosts = data.filter(p => p.id != postId).slice(0, 3);
+                let recentHtml = '';
+                recentPosts.forEach(p => {
+                    recentHtml += `
+                        <div class="blog-item">
+                            <div class="blog-img"><img src="${p.image}" alt="${p.title}"></div>
+                            <div class="text-wrap">
+                                <h3 class="heading"><a href="${p.link}">${p.title}</a></h3>
+                                <span class="date">${p.date}</span>
+                            </div>
+                        </div>
+                    `;
+                });
+                $('.site-bar .blog-post').html(recentHtml);
+            }).fail(function () {
+                $('.site-content').html('<p>Error loading blog post. Please try again later.</p>');
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,600 @@
+@media only screen and (max-width: 1645px) {
+
+    /* ======================== Header ========================*/
+    .main-nav {
+        margin-right: 50px !important;
+    }
+
+    .menu-item {
+        padding: 0 25px;
+    }
+
+    /* slick slider */
+    .slick-dots {
+        transform: translateX(0px);
+    }
+
+}
+
+@media only screen and (max-width: 1550px) {
+
+    /* ================ latest blog post ================== */
+    .post-slider {
+        max-width: 100%;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+
+    /* ======================== Header ========================*/
+    header,
+    .slide-item img {
+        height: 760px;
+    }
+
+    .search-icon {
+        display: none;
+    }
+
+    .main-logo {
+        margin-left: 40px;
+        width: 18%;
+    }
+
+    .main-nav {
+        margin-right: 10px !important;
+    }
+
+    .nav-icon {
+        padding-right: 20px;
+    }
+
+    /* ======================= counter section ================= */
+    .counter-section .heading {
+        margin-left: 0vw;
+    }
+
+    .counter-section .counter {
+        justify-content: space-around;
+        transform: translateX(0%);
+    }
+
+    /* =========================== maps section ============================== */
+    .maps-contact .section-title {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 1201px) {
+
+    /* ======================== Header ========================*/
+    .main-nav-icon {
+        display: none;
+    }
+
+    nav {
+        padding-top: 8px !important;
+    }
+
+    .navbar {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .main-nav {
+        margin-right: 0 !important;
+    }
+
+    /* sub-menu */
+    .menu-item-has-child {
+        position: relative;
+    }
+
+    .sub-menu {
+        width: 102%;
+        position: absolute;
+        z-index: 10000;
+    }
+
+    .sub-menu li {
+        background-color: #332936 !important;
+        border-bottom: 1px solid #49484b !important;
+        padding: 20px 0 !important;
+    }
+
+    .menu-item:hover {
+        background-color: #332936 !important;
+        transition: all ease .35s;
+    }
+
+    /* slide text */
+    .slide-text {
+        margin-left: -390px;
+        margin-top: -140px;
+        max-width: 780px;
+    }
+
+    .slide-text h3 {
+        font-size: 28px;
+        letter-spacing: 1.2px;
+    }
+
+    .slide-text h1 {
+        font-size: 56px;
+    }
+
+    .slide-text p {
+        font-size: 16px;
+    }
+
+    /* ========================== maps section =========================== */
+    .maps-contact .contact-popup-info {
+        margin-bottom: 30px;
+    }
+
+    .maps-contact .section-title {
+        margin-bottom: 20px;
+    }
+
+    .maps-form {
+        margin-top: 40px;
+    }
+
+    .maps-contact .submit-btn input {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1070px) {
+
+    /* ======================== Header ========================*/
+    .slide-control {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    /* about section ===================== */
+    .video-box {
+        height: 540px !important;
+    }
+
+    .video-embed {
+        width: 90%;
+    }
+
+    .close-btn {
+        right: 5%;
+    }
+
+    /* appointment-section ============== */
+    .appointment-section .pre-heading {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .appointment-section .main-heading {
+        font-size: 48px;
+        line-height: 45px;
+        margin-bottom: 10px;
+    }
+
+    .about-main-text {
+        padding: 40px 15% 50px 30px !important;
+    }
+
+    /* pricing plan ==================== */
+    .menu-filter {
+        width: 85%;
+    }
+
+    .pricing-menu {
+        flex-direction: column;
+    }
+
+    .pricing-item {
+        width: 100%;
+    }
+
+    /* spa packages =================== */
+    .package-box.center {
+        transform: translateY(300px);
+    }
+
+    /* counter ======================== */
+    .counter-section .heading {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .counter-section .main-heading {
+        margin-bottom: 20px;
+    }
+
+    .counter-section .sub-heading {
+        text-align: center;
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    /* ========================== maps ===============================  */
+    .maps-contact .inner {
+        padding-left: 2%;
+    }
+
+    .maps-contact .section-title {
+        font-size: 38px;
+    }
+
+    .maps-contact .submit-btn input {
+        font-size: 16px;
+        height: 70%;
+    }
+
+    /* ================================================================================= */
+    /* ================================= blog page details ============================= */
+    .blog-details .site-bar {
+        display: none;
+    }
+
+    .blog-details .site-content {
+        width: 100%;
+    }
+
+    .comment-form {
+        width: 90% !important;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+
+    /* ======================== Header ========================*/
+    .slide-text {
+        margin-left: -320px;
+        margin-top: -140px;
+        max-width: 640px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    /* ======================== Header ========================*/
+    header,
+    .slide-item img {
+        height: 640px;
+    }
+
+    /* slides */
+    .slide-dot {
+        display: none;
+    }
+
+    /* slide text */
+    .slide-text {
+        max-width: 460px;
+        margin-left: -230px;
+        margin-top: -123.5px;
+    }
+
+    .slide-text h3 {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .slide-text h1 {
+        font-size: 44px;
+    }
+
+    .slide-text p {
+        font-size: 13px;
+    }
+
+    .book-now-btn {
+        font-size: 14px !important;
+        padding: 8px 30px !important;
+        letter-spacing: .5px;
+    }
+
+    /* services section ==================== */
+    .service .spacer-clearfix {
+        height: 50px !important;
+    }
+
+    .services-section .spacer-clearfix:last-child {
+        height: 30px !important;
+    }
+
+    /* about section ===================== */
+    .video-box {
+        height: 420px !important;
+    }
+
+    .video-embed {
+        width: 90%;
+        height: 350px;
+    }
+
+    .close-btn {
+        top: 26%;
+    }
+
+    /* appointment section */
+    .submit-btn {
+        margin-top: 30px;
+    }
+
+    .submit-btn .book-now-btn {
+        font-size: 16px !important;
+    }
+
+    .form-input input:not(#datepicker):not(#appointment-submit):focus {
+        transform: scale(1.05);
+    }
+
+    /* pricing plan ===================== */
+    .menu-filter {
+        border: none;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+    .filter-item {
+        margin: 10px;
+        background-color: #efefef;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    /* collection ======================= */
+    .collect-item {
+        width: 33.3%;
+    }
+
+    #gallery-4 {
+        display: none;
+    }
+
+    /* spa packages ===================== */
+    .spa-packages .heading {
+        margin-bottom: 20px;
+    }
+
+    .package-box.center {
+        transform: translateY(0px) scale(.95);
+    }
+
+
+    /* ========================= Counter section ====================== */
+    .counter-section {
+        background-image: url('/imgs/pattern.png');
+        background-position: center center;
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .counter-section .main-heading {
+        font-size: 55px;
+        line-height: 55px;
+    }
+
+    .counter-section .sub-heading {
+        max-width: 80%;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    /* counter item ======*/
+    .counter-section .counter {
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .counter-item:not(:last-child) {
+        margin-bottom: 50px;
+    }
+
+    .counter-item .title {
+        margin-bottom: 0;
+    }
+
+    /* team section ==================== */
+    .team-item {
+        transform: translateX(20px);
+    }
+
+    /* latest blog post ============== */
+    .post-box {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    /* ============= maps section ================= */
+    .maps-contact textarea {
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+
+    .maps-contact .submit-btn input {
+        padding: 0;
+        width: 100%;
+    }
+
+    /* ================= footer =================== */
+    footer .footer-bottom {
+        font-size: 18px;
+    }
+
+    /* ================ page 404 ================== */
+    .page-404-inner .form-search form {
+        width: 85%;
+    }
+
+    .page-404-inner .warning {
+        font-size: 2rem;
+    }
+
+    .page-404-inner .form-search input {
+        font-size: 16px;
+    }
+
+    /* ================================================================================= */
+    /* ================================= blog page details ============================= */
+    .site-content .post-tags a {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    /* ================== comment ======================= */
+    .comment-item .text-wrap {
+        width: 100% !important;
+    }
+
+    .comment-item .author-name {
+        font-size: 14px;
+    }
+
+    .comment-form .post-btn {
+        width: 55% !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    /* ============================= Header =============================*/
+    .slide-text {
+        max-width: 360px;
+        margin-left: -180px;
+        margin-top: -120px;
+    }
+
+    .slide-text h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .slide-text h1 {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+
+    .slide-text p {
+        margin-bottom: 20px;
+    }
+
+    .book-now-btn {
+        font-size: 12px !important;
+    }
+
+    /* ======================== about section ============================== */
+    .video-embed {
+        width: 100%;
+    }
+
+    .close-btn {
+        right: 0;
+    }
+
+    /* ======================== Testimonial section ======================== */
+    .slick-slide-cite p {
+        font-size: 18px;
+        line-height: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .slick-center img {
+        width: 80px !important;
+        transform: translate3d(84%, 0, 0) !important;
+    }
+
+    .slick-slide-figure-info .infomation {
+        transform: translateX(0px);
+    }
+
+    .slick-slide-figure-info .name {
+        font-size: 18px;
+    }
+
+    .slick-slide-figure-info .position {
+        font-size: 14px;
+    }
+
+    /* pricing plan ===================== */
+    .pricing-plan .sub-heading {
+        padding: 0 20px;
+    }
+
+    .filter-item {
+        font-size: 15px;
+    }
+
+    /* collection ======================= */
+    .collect-item {
+        width: 50%;
+    }
+
+    #gallery-3 {
+        display: none;
+    }
+
+    /* ================= footer =================== */
+    footer .footer-bottom {
+        font-size: 15px;
+    }
+
+    /* ================================================================================= */
+    /* ================================= blog page details ============================= */
+    /* ================== comment ======================= */
+    .comment-item .comment-reply {
+        top: 32px !important;
+        right: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    /* ======================== Header ========================*/
+    header {
+        height: 550px;
+    }
+
+    .slide-text {
+        max-width: 320px;
+        margin-left: -160px;
+        margin-top: -135px;
+    }
+
+    #main-nav-mobile ul li a,
+    .sub-menu li {
+        padding: 14px 0 !important;
+    }
+
+    /* ======================== Testimonial section ======================== */
+    .slick-center img {
+        width: 80px !important;
+        transform: translate3d(65%, 0, 0) !important;
+    }
+
+    /* ============================ pricing plan =========================== */
+    .pricing-item .logo i {
+        font-size: 200%;
+    }
+
+    .pricing-item h4 {
+        font-size: 20px;
+    }
+
+    .pricing-item .description {
+        font-size: 14px;
+    }
+
+    .pricing-item .price {
+        font-size: 125%;
+    }
+}

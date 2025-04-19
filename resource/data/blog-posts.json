@@ -1,0 +1,203 @@
+[
+    {
+        "id": 1,
+        "title": "2020 Spa And Wellness Trend: The Return Of Gua Sha",
+        "date": "Dec 27, 2019",
+        "image": "./imgs/news/news-details.jpg",
+        "summary": "Gua Sha is making a comeback in 2020 with new tools and techniques...",
+        "link": "page-blog-details.html?id=1",
+        "category": "skincare",
+        "author": {
+            "name": "Tessa Lighty",
+            "image": "./imgs/news/author.jpg",
+            "bio": "I never knew before starting to use Instagram that the only place you can use a live link is in your bio."
+        },
+        "tags": ["Treatment", "Gua Sha", "Waxing", "Skincare"],
+        "content": [
+            {
+                "type": "sub-title",
+                "text": "Gua Sha is now being incorporated into a variety of facials"
+            },
+            {
+                "type": "paragraph",
+                "text": "It’s no surprise then that many skincare companies are looking for ways to introduce gua sha to their facial and body protocols and even launching their own tools. “I found out about gua sha therapy when we launched Odacité in Hong Kong three years ago,” says Grandury. “I had the most amazing body gua sha massage and decided to create a gua sha tool specifically designed for the face. For the stone, we started with rose quartz, as it is the stone of unconditional love, and for me, skincare is an act of self-love.” When Odacité’s Instagram community began asking for other stones, the company responded by introducing blue sodalite, the crystal associated with harmony, and green aventurine, which relates to opportunity and good luck."
+            },
+            {
+                "type": "blockquote",
+                "text": "But like the visual effects of cupping, the temporary bruising sometimes associated with gua sha isn’t proving to be a deterrent. Instead, many are taking to Instagram to show off their results"
+            },
+            {
+                "type": "paragraph",
+                "text": "Kerstin Florian also introduced a line of gua sha tools, choosing to make them with the Sibin Bian stone. “We’ve always been very particular about stones and their qualities and vibrational frequencies,” says Trina Jefferson, director of global education. “Having our own tools gives us the level of quality and consistency that we demand.”"
+            },
+            {
+                "type": "paragraph",
+                "text": "“Right now, with the opioid epidemic at an all-time high, we are looking to ancient remedies that help decrease pain without addictive substances,” says Trattner. “Gua sha has excellent clinical efficacy for reducing pain with little to no side effects, except a rash.”"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Take a Little Stress Out of Your Big Day",
+        "date": "Feb 17, 2020",
+        "image": "./imgs/news/news-3-570x340.jpg",
+        "summary": "Massage is more popular in women than men...",
+        "link": "page-blog-details.html?id=2",
+        "category": "massage",
+        "author": {
+            "name": "Jaquan Rolfson",
+            "image": "./imgs/news/author.jpg",
+            "bio": "Passionate about wellness and sharing tips for a balanced life."
+        },
+        "tags": ["Massage", "Wellness", "Stress Relief"],
+        "content": [
+            {
+                "type": "sub-title",
+                "text": "Massage Therapy for Stress Relief"
+            },
+            {
+                "type": "paragraph",
+                "text": "Massage is more popular in women than men. The idea of going for a massage conjures up visions of spas and pampering which many men don’t see as being very masculine. However, massage therapy is a powerful tool for reducing stress and improving overall well-being."
+            },
+            {
+                "type": "blockquote",
+                "text": "A good massage can melt away stress, leaving you refreshed and ready to tackle your big day."
+            },
+            {
+                "type": "paragraph",
+                "text": "At Namespa, our signature massage combines Swedish and deep tissue techniques to target tension and promote relaxation. Our therapists are trained to customize each session to your needs."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "How To Deal With Preventable Waxing Mistakes",
+        "date": "Feb 16, 2020",
+        "image": "./imgs/news/news-4-570x340.jpg",
+        "summary": "Waxing can be tricky, but avoiding common mistakes can make all the difference...",
+        "link": "page-blog-details.html?id=3",
+        "category": "waxing",
+        "author": {
+            "name": "Marsha Hoffman",
+            "image": "./imgs/news/author.jpg",
+            "bio": "Expert in skincare and waxing techniques."
+        },
+        "tags": ["Waxing", "Skincare", "Beauty Tips"],
+        "content": [
+            {
+                "type": "sub-title",
+                "text": "Common Waxing Mistakes and How to Avoid Them"
+            },
+            {
+                "type": "paragraph",
+                "text": "Waxing is a popular hair removal method, but it’s easy to make mistakes that lead to irritation or poor results. One common mistake is waxing hair that’s too short. Hair should be at least 1/4 inch long for effective waxing."
+            },
+            {
+                "type": "blockquote",
+                "text": "Proper preparation is key to a smooth waxing experience."
+            },
+            {
+                "type": "paragraph",
+                "text": "At Namespa, we use high-quality natural wax and follow strict hygiene protocols to ensure a comfortable experience. Our estheticians provide pre- and post-waxing tips to maximize results."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "HiFi Exchange Opens Holiday Wellness",
+        "date": "Feb 15, 2020",
+        "image": "./imgs/news/news-1-570x340.jpg",
+        "summary": "Discover the latest wellness trends at HiFi Exchange’s holiday event...",
+        "link": "page-blog-details.html?id=4",
+        "category": "wellness",
+        "author": {
+            "name": "Emille Jenifer",
+            "image": "./imgs/news/author.jpg",
+            "bio": "Wellness enthusiast and event organizer."
+        },
+        "tags": ["Wellness", "Events", "Holiday"],
+        "content": [
+            {
+                "type": "sub-title",
+                "text": "A Celebration of Wellness"
+            },
+            {
+                "type": "paragraph",
+                "text": "HiFi Exchange’s holiday wellness event brings together experts in massage, skincare, and holistic health. Attendees can enjoy workshops, product demos, and exclusive spa treatments."
+            },
+            {
+                "type": "blockquote",
+                "text": "Join us to kick off the holiday season with a focus on self-care."
+            },
+            {
+                "type": "paragraph",
+                "text": "Namespa is proud to partner with HiFi Exchange to offer mini-massages and skincare consultations at the event. Don’t miss this opportunity to learn about the latest wellness trends!"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Interactions With Events Property",
+        "date": "Feb 14, 2020",
+        "image": "./imgs/news/news-2-570x340.jpg",
+        "summary": "Learn how to enhance your spa experience with event-based interactions...",
+        "link": "page-blog-details.html?id=5",
+        "category": "events",
+        "author": {
+            "name": "Corinna Keefe",
+            "image": "./imgs/news/author.jpg",
+            "bio": "Spa industry expert and event planner."
+        },
+        "tags": ["Events", "Spa", "Wellness"],
+        "content": [
+            {
+                "type": "sub-title",
+                "text": "Enhancing Your Spa Experience"
+            },
+            {
+                "type": "paragraph",
+                "text": "Spa events offer a unique opportunity to connect with wellness professionals and try new treatments. From yoga classes to skincare workshops, these events can enhance your spa experience."
+            },
+            {
+                "type": "blockquote",
+                "text": "Events bring the spa community together for learning and relaxation."
+            },
+            {
+                "type": "paragraph",
+                "text": "Namespa hosts regular events to engage our clients and introduce them to new services. Check our blog for upcoming events and how to participate."
+            }
+        ]
+    },{
+        "id": 6,
+        "title": "The Best Spa Treatments for Your Skin Type",
+        "date": "Feb 13, 2020",
+        "image": "./imgs/news/news-5-570x340.jpg",
+        "summary": "Discover the best spa treatments tailored to your skin type...",
+        "link": "page-blog-details.html?id=6",
+        "category": "skincare",
+        "author": {
+            "name": "Lorenzo Krajcik",
+            "image": "./imgs/news/author.jpg",
+            "bio": "Skincare specialist and spa consultant."
+        },
+        "tags": ["Skincare", "Spa", "Beauty"],
+        "content": [
+            {
+                "type": "sub-title",
+                "text": "Tailored Treatments for Every Skin Type"
+            },
+            {
+                "type": "paragraph",
+                "text": "At Namespa, we believe that every skin type deserves personalized care. Our estheticians assess your skin and recommend treatments that will provide the best results."
+            },
+            {
+                "type": "blockquote",
+                "text": "From facials to body treatments, we have something for everyone."
+            },
+            {
+                "type": "paragraph",
+                "text": "Whether you have dry, oily, or sensitive skin, our team is here to help you achieve your skincare goals. Book a consultation today!"
+            }
+        ]
+    }
+]

@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta configuration -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Page title -->
+    <title>Namespa - Beauty Salon & Spa Template</title>
+
+    <!-- Linking CSS files -->
+    <link rel="stylesheet" href="./resource/css/style.css">
+    <link rel="stylesheet" href="./resource/css/queries.css">
+    <link rel="stylesheet" href="./resource/css/animation.css">
+    <link rel="stylesheet" href="./vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./vendor/fonts/fontawesome-5.0.13/css/all.css">
+    <link rel="stylesheet" href="./vendor/fonts/natuspa-font/css/natuspa-icons.css">
+    <link rel="stylesheet" href="./vendor/js/Magnific-Popup-master/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <!-- Favicons for different devices -->
+    <link rel="apple-touch-icon" sizes="76x76" href="/resource/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resource/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resource/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/resource/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/resource/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/resource/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/resource/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body class="preload">
+    <!-- Loading animation -->
+    <div class="loader" id="loader">
+        <div class="loader-inner">
+            <img src="./imgs/loader.svg" alt="Loader" class="loader-img">
+        </div>
+    </div>
+
+    <!-- Overlay for focus -->
+    <div id="overlay" style="display: none;"></div>
+
+    <!-- Scroll-to-top button -->
+    <a class="scroll-top link-text" href="#home">Top</a>
+
+    <!-- Special offer banner -->
+    <div style="background-color: #ff69b4; color: white; text-align: center; padding: 10px; font-weight: bold;">
+        🎁 Ưu đãi đặc biệt: Giảm đến 50% cho liệu trình chăm sóc da trong tuần này!
+    </div>
+
+    <!-- Page wrapper -->
+    <div class="page-wrapper">
+        <!-- Header section -->
+        <header id="home">
+            <!-- Navigation bar -->
+            <nav class="navbar navbar-expand-xl navbar-dark">
+                <!-- Website logo -->
+                <a class="navbar-brand main-logo" href="index.html" rel="home" title="Namespa">
+                    <img src="./imgs/logo_white.png" alt="Namespa Logo" width="193" height="76">
+                </a>
+                <!-- Mobile menu toggle button -->
+                <button class="navbar-toggler mobile-nav-icon" type="button" data-toggle="collapse"
+                    data-target="#main-nav-mobile">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Main navigation menu -->
+                <div class="collapse navbar-collapse main-nav">
+                    <ul class="navbar-nav menu" id="mainNav">
+                        <li class="nav-item menu-item"><a class="nav-link" href="index.html">Trang Chủ</a></li>
+                        <li class="nav-item menu-item"><a class="nav-link" href="about-us.html">Giới thiệu</a></li>
+                        <li class="nav-item menu-item"><a class="nav-link" href="page-blog.html">Blog làm đẹp</a></li>
+                        <li class="nav-item menu-item"><a class="nav-link" href="services.html">Dịch vụ</a></li>
+                        <li class="nav-item menu-item"><a class="nav-link" href="page-pricing.html">Ưu đãi</a></li>
+                    </ul>
+                </div>
+                <!-- Navigation icons -->
+                <div class="main-nav-icon">
+                    <!-- Sidebar menu icon -->
+                    <a class="slide-icon"><span class="bars-icon nav-icon"><i class="fal fa-bars"></i></span></a>
+                </div>
+            </nav>
+            <div class="menu-popup">
+                <span class="close-icon"><i class="fal fa-times"></i></span>
+                <div class="content-wrap">
+                    <h1 class="title">Namespa</h1>
+                    <p class="text">
+                        For us, it’s been about a journey, not a race to build a legacy and reputation of being the
+                        best, delivering the best and creating a Namespa culture that we are proud of each and every
+                        day.
+                    </p>
+                    <span class="menu-popup-img"><img src="./imgs/summer-sale.jpg" alt="Sale"></span>
+                </div>
+            </div>
+            <div class="slide-wrap">
+                <div class="slide-inner">
+                    <div class="slide-item active">
+                        <img src="./imgs/slide_1.jpg" alt="slide one">
+                        <div class="slide-text">
+                            <h3>Welcome to Namespa !</h3>
+                            <h1>BE YOUR BEST</h1>
+                            <p>Enter a relaxing atmosphere of comfort. Namespa is a peaceful refuge from your
+                                complicated and high stress lifestyle. leave feeling refreshed, beautiful, and more
+                                relaxed than ever.</p>
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <img src="./imgs/slide_2.jpg" alt="slide two">
+                        <div class="slide-text" style="text-align: left;">
+                            <h3>Welcome to Namespa !</h3>
+                            <h1>BE YOUR BEST</h1>
+                            <p>You deserve a break. discover again what it means to be at ease, feel better & enjoy the
+                                long lasting benefits of the spavia experience.</p>
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <img src="./imgs/slide_3.jpg" alt="slide three">
+                        <div class="slide-text" style="text-align: right;">
+                            <h3>Welcome to Namespa !</h3>
+                            <h1>BE YOUR BEST</h1>
+                            <p>set aside the chaos of your daily routines and make time for yourself let the spavia team
+                                recharge and refocus your body and mind.</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="slide-control" id="prev-slide"></a>
+                <a href="#" class="slide-control" id="next-slide"></a>
+                <ol class="slide-dot">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                </ol>
+            </div>
+        </header>
+        <div class="latest-blog">
+            <div class="spacer-clearfix" style="height: 80px;"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="heading col-md-12">
+                        <div class="section-title">Latest Blog Posts</div>
+                        <div class="sub-heading">
+                            <p>Welcome to the Namespa Day Med Spa! A wellness luxury spa center dedicated to inspiring
+                                Life in Balance.</p>
+                        </div>
+                    </div>
+                    <div class="spacer-clearfix" style="height: 62px;"></div>
+                    <div class="col-md-12">
+                        <div class="post-grid row">
+                            <!-- Blog posts will be dynamically loaded here -->
+                        </div>
+                        <div class="view-more">
+                            <a href="page-blog.html" class="btn book-now-btn" aria-label="View more blog posts">View
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer-clearfix" style="height: 90px;"></div>
+        </div>
+        <div class="services-section container" id="services">
+            <div class="row">
+                <div class="spacer-clearfix" style="height: 80px;"></div>
+                <div class="services-info col-md-12">
+                    <h2 class="section-title">our best services</h2>
+                    <p class="services-main-text">Namespa is a full service salon with experts in body services, nail
+                        care, massage, waxing, skin care, and other treatments.</p>
+                </div>
+                <div class="service col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-icon-wrap"><i class="natuspa-icon-facial-treatment"></i></div>
+                    <div class="heading text-linear-effect">Derm Young Facial</div>
+                    <div class="description">This facial addresses most of the common skin concerns for both men and
+                        women including dehydration, wrinkles, and loss of firmness.</div>
+                    <div class="spacer-clearfix" style="height: 50px;"></div>
+                </div>
+                <div class="service col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-icon-wrap"><i class="natuspa-icon-depilation"></i></div>
+                    <div class="heading text-linear-effect">Natural Waxing</div>
+                    <div class="description">This drastically reduces the occurrence of hair breakage, painful in-grown
+                        hairs, and also allows us to remove smaller, harder to grab hairs.</div>
+                    <div class="spacer-clearfix" style="height: 50px;"></div>
+                </div>
+                <div class="service col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-icon-wrap"><i class="natuspa-icon-massage-1"></i></div>
+                    <div class="heading text-linear-effect">Signature Massage</div>
+                    <div class="description">invite Namespa to travel to your office or place of business and help your
+                        team relax! great for team recognition, a reward for meeting goals.</div>
+                    <div class="spacer-clearfix" style="height: 50px;"></div>
+                </div>
+                <div class="service col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-icon-wrap"><i class="natuspa-icon-herbal"></i></div>
+                    <div class="heading text-linear-effect">Body Treatments</div>
+                    <div class="description">This treatment begins with a gentle lavender sugar scrub, followed by the
+                        Vichy shower to exfoliate and remove bacteria from our pores.</div>
+                    <div class="spacer-clearfix" style="height: 0px;"></div>
+                </div>
+                <div class="service col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-icon-wrap"><i class="natuspa-icon-polish"></i></div>
+                    <div class="heading text-linear-effect">Natural Nails Care</div>
+                    <div class="description">Namespa has highly trained professionals when it comes manicures and
+                        pedicures. If you have any questions, please don't hesitate to contact us.</div>
+                    <div class="spacer-clearfix" style="height: 0px;"></div>
+                </div>
+                <div class="service col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-icon-wrap"><i class="natuspa-icon-stone"></i></div>
+                    <div class="heading text-linear-effect">Hot Stone Massage</div>
+                    <div class="description">Hot stone massage is a therapeutic massage treatment during which warmed
+                        stones are placed on certain areas of the body.</div>
+                    <div class="spacer-clearfix" style="height: 0px;"></div>
+                </div>
+                <div class="spacer-clearfix" style="height: 80px;"></div>
+            </div>
+        </div>
+        <div class="about-section container-fluid" id="about">
+            <div class="row">
+                <div class="video-box col-lg-6 col-md-12">
+                    <div class="play-btn"><i class="fas fa-play"></i></div>
+                </div>
+                <div class="about-main-text col-lg-6 col-md-12">
+                    <h2 class="section-title">Our Story !</h2>
+                    <div class="sub-heading">
+                        <em>Namespa opened its doors with a mission and vision of making a positive difference in the
+                            world.</em>
+                    </div>
+                    <p class="text-box">September 25, 2005, Namespa opened its doors with a mission and vision of making
+                        a positive difference in the world one guest at a time and delivering an exceptional our guests
+                        couldn’t live without...</p>
+                    <a class="link-text text-linear-effect">Read More</a>
+                </div>
+            </div>
+            <iframe src="https://www.youtube.com/embed/VCQrC5IaboA" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                class="video-embed"></iframe>
+            <span class="close-btn"><i class="fal fa-times"></i></span>
+            <div class="spacer-clearfix" style="height: 80px;"></div>
+        </div>
+        <div class="pricing-plan container">
+            <div class="spacer-clearfix" style="height: 80px;"></div>
+            <div class="row">
+                <div class="heading col-12">
+                    <div class="main-heading section-title">pricing plan</div>
+                    <div class="sub-heading">
+                        <p>Welcome to the Namespa Day Med Spa! A wellness luxury spa center dedicated to inspiring Life
+                            in Balance.</p>
+                    </div>
+                </div>
+                <div class="spacer-clearfix" style="height: 24px;"></div>
+                <div class="menu-filter">
+                    <div class="filter-item active" title="All" data-id="all">All</div>
+                    <div class="filter-item" title="Facial" data-id="facial">Facial</div>
+                    <div class="filter-item" title="Waxing" data-id="waxing">Waxing</div>
+                    <div class="filter-item" title="Treatments" data-id="treatments">Treatments</div>
+                    <div class="filter-item" title="Massage" data-id="massage">Massage</div>
+                    <div class="filter-item" title="Nail" data-id="nail">Nail</div>
+                </div>
+                <div class="spacer-clearfix" style="height: 40px;"></div>
+                <ul class="pricing-menu col-12">
+                    <li class="pricing-item all facial massage"><span class="logo"><i
+                                class="natuspa-icon-oil"></i></span>
+                        <div class="heading">
+                            <h4>Swedish Massage</h4>
+                            <div class="description">Lorem ipsum dolor sit amet ...</div>
+                        </div><span class="price">$93.55</span>
+                    </li>
+                    <li class="pricing-item all massage treatments"><span class="logo"><i
+                                class="natuspa-icon-stone"></i></span>
+                        <div class="heading">
+                            <h4>Massage Stone</h4>
+                            <div class="description">Lorem ipsum dolor sit amet ...</div>
+                        </div><span class="price">$99.99</span>
+                    </li>
+                    <li class="pricing-item all nail treatments waxing"><span class="logo"><i
+                                class="natuspa-icon-polish"></i></span>
+                        <div class="heading">
+                            <h4>Nail Care</h4>
+                            <div class="description">Lorem ipsum dolor sit amet ...</div>
+                        </div><span class="price">$25.95</span>
+                    </li>
+                    <li class="pricing-item all treatments massage"><span class="logo"><i
+                                class="natuspa-icon-massage-1"></i></span>
+                        <div class="heading">
+                            <h4>Body Treatments</h4>
+                            <div class="description">Lorem ipsum dolor sit amet ...</div>
+                        </div><span class="price">$105.5</span>
+                    </li>
+                    <li class="pricing-item all facial waxing nail"><span class="logo"><i
+                                class="natuspa-icon-cramp"></i></span>
+                        <div class="heading">
+                            <h4>Vein Sclerotherapy</h4>
+                            <div class="description">Lorem ipsum dolor sit amet ...</div>
+                        </div><span class="price">$73.95</span>
+                    </li>
+                    <li class="pricing-item all facial massage"><span class="logo"><i
+                                class="natuspa-icon-facial-treatment"></i></span>
+                        <div class="heading">
+                            <h4>Derm Young Facial</h4>
+                            <div class="description">Lorem ipsum dolor sit amet ...</div>
+                        </div><span class="price">$63.35</span>
+                    </li>
+                    <li class="pricing-item all waxing"><span class="logo"><i
+                                class="natuspa-icon-depilation"></i></span>
+                        <div class="heading">
+                            <h4>Natural Waxing</h4>
+                            <div class="description">Lorem ipsum dolor sit amet ...</div>
+                        </div><span class="price">$55.95</span>
+                    </li>
+                    <li class="pricing-item all treatments"><span class="logo"><i class="natuspa-icon-spa-1"></i></span>
+                        <div class="heading">
+                            <h4>Express Treatments</h4>
+                            <div class="description">Lorem ipsum dolor sit amet ...</div>
+                        </div><span class="price">$83.55</span>
+                    </li>
+                </ul>
+                <span id="filter-option"></span>
+            </div>
+            <div class="spacer-clearfix" style="height: 60px;"></div>
+        </div>
+        <div class="collection">
+            <a href="./imgs/collection/gallery-1.jpg" class="collect-item"><img src="./imgs/collection/gallery-1.jpg"
+                    alt="Gallery-1" class="collect-img" id="gallery-1"><span class="plus-icon"><i
+                        class="fal fa-plus"></i></span></a>
+            <a href="./imgs/collection/gallery-2.jpg" class="collect-item"><img src="./imgs/collection/gallery-2.jpg"
+                    alt="Gallery-2" class="collect-img" id="gallery-2"><span class="plus-icon"><i
+                        class="fal fa-plus"></i></span></a>
+            <a href="./imgs/collection/gallery-3.jpg" class="collect-item"><img src="./imgs/collection/gallery-3.jpg"
+                    alt="Gallery-3" class="collect-img" id="gallery-3"><span class="plus-icon"><i
+                        class="fal fa-plus"></i></span></a>
+            <a href="./imgs/collection/gallery-4.jpg" class="collect-item"><img src="./imgs/collection/gallery-4.jpg"
+                    alt="Gallery-4" class="collect-img" id="gallery-4"><span class="plus-icon"><i
+                        class="fal fa-plus"></i></span></a>
+        </div>
+        <div class="spa-packages container-fluid">
+            <div class="spacer-clearfix" style="height: 70px;"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="heading col-12">
+                        <h2 class="main-heading section-title">Day Spa Packages</h2>
+                        <div class="sub-heading">
+                            <p>Welcome to the Namespa Day Med Spa! A wellness luxury spa center dedicated to inspiring
+                                Life in Balance.</p>
+                        </div>
+                    </div>
+                    <div class="package-box col-lg-4 col-md-6 col-sm-12">
+                        <h2 class="section-title name-price-package">basic package<br><span class="price">$369</span>
+                        </h2>
+                        <ul class="features">
+                            <li class="feature-item">Deep Tissue Massage</li>
+                            <li class="feature-item">Sandy Beach Scrub</li>
+                            <li class="feature-item">Essential Treatment Facial</li>
+                            <li class="feature-item"><del>Spa Manicure & Pedicure</del></li>
+                            <li class="feature-item"><del>Complimentary lunch</del></li>
+                        </ul>
+                    </div>
+                    <div class="package-box center col-lg-4 col-md-6 col-sm-12">
+                        <h2 class="section-title name-price-package">COUPLE'S PACKAGE<br><span class="price">$595</span>
+                        </h2>
+                        <ul class="features">
+                            <li class="feature-item">Deep Tissue Massage</li>
+                            <li class="feature-item">Sandy Beach Scrub</li>
+                            <li class="feature-item">Essential Treatment Facial</li>
+                            <li class="feature-item">Complimentary lunch</li>
+                            <li class="feature-item"><del>Spa Manicure & Pedicure</del></li>
+                            <li class="feature-item">Epsom Salt float therapy</li>
+                        </ul>
+                    </div>
+                    <div class="package-box col-lg-4 col-md-6 col-sm-12">
+                        <h2 class="section-title name-price-package">special package<br><span class="price">$769</span>
+                        </h2>
+                        <ul class="features">
+                            <li class="feature-item">Deep Tissue Massage</li>
+                            <li class="feature-item">Sandy Beach Scrub</li>
+                            <li class="feature-item">Essential Treatment Facial</li>
+                            <li class="feature-item">Spa Manicure & Pedicure</li>
+                            <li class="feature-item">Complimentary lunch</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer-clearfix" style="height: 80px;"></div>
+        </div>
+        <div class="team container">
+            <div class="spacer-clearfix" style="height: 70px;"></div>
+            <div class="heading">
+                <h2 class="section-title">our happy team</h2>
+                <div class="sub-heading">
+                    <p>Namespa is a full service salon with experts in body services, nail care, massage, waxing, skin
+                        care, and other treatments.</p>
+                </div>
+            </div>
+            <div class="spacer-clearfix" style="height: 65px;"></div>
+            <div class="team-slider">
+                <div class="team-item">
+                    <img src="./imgs/team/person-1-370x450.jpg" alt="Person-1">
+                    <div class="infomation">
+                        <h4 class="name">Emille Jenifer</h4>
+                        <div class="position">Massagist</div>
+                    </div>
+                    <ul class="social-media-icons">
+                        <li class="social-media"><a class="social-popup-icon" target="_blank"><i
+                                    class="fab fa-linkedin-in"></i></a></li>
+                        <li class="social-media"><a href="https://www.facebook.com/HuynhDieuQuocQuan"
+                                class="social-popup-icon" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="social-media"><a class="social-popup-icon" target="_blank"><i
+                                    class="fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+                <div class="team-item">
+                    <img src="./imgs/team/person-2-370x450.jpg" alt="Person-2">
+                    <div class="infomation">
+                        <h4 class="name">Marsha Hoffman</h4>
+                        <div class="position">makeup expert</div>
+                    </div>
+                    <ul class="social-media-icons">
+                        <li class="social-media"><a class="social-popup-icon" target="_blank"><i
+                                    class="fab fa-linkedin-in"></i></a></li>
+                        <li class="social-media"><a href="https://www.facebook.com/HuynhDieuQuocQuan"
+                                class="social-popup-icon" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="social-media"><a class="social-popup-icon" target="_blank"><i
+                                    class="fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+                <div class="team-item">
+                    <img src="./imgs/team/person-3-370x450.jpg" alt="Person-3">
+                    <div class="infomation">
+                        <h4 class="name">Emille Jenifer</h4>
+                        <div class="position">Massagist</div>
+                    </div>
+                    <ul class="social-media-icons">
+                        <li class="social-media"><a class="social-popup-icon" target="_blank"><i
+                                    class="fab fa-linkedin-in"></i></a></li>
+                        <li class="social-media"><a href="https://www.facebook.com/HuynhDieuQuocQuan"
+                                class="social-popup-icon" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="social-media"><a class="social-popup-icon" target="_blank"><i
+                                    class="fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="spacer-clearfix" style="height: 90px;"></div>
+        </div>
+        <footer id="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- Google Maps Embed -->
+                    <div class="maps-embed col-md-12 col-lg-5 p-0">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.1586172889265!2d106.79692831526064!3d10.87553776032924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d8a1768e1d03%3A0x38d3ea53e0581ae0!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBLaG9hIGjhu41jIFThu7Ebmhpw6puLCBDxqEgc-G7nyBMaW5oIFRydW5nLCBUaOG7pyDEkOG7qWMsIMSQSFFHIFRQSENNLg!5e0!3m2!1svi!2s!4v1581684581250!5m2!1svi!2s"
+                            width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen=""
+                            loading="lazy"></iframe>
+                    </div>
+
+                    <!-- Footer Contact Information -->
+                    <div class="maps-contact col-md-12 col-lg-7">
+                        <div class="footer-info">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="./imgs/logo_white.png" alt="Namespa Logo"
+                                        width="120"></a>
+                            </div>
+                            <h2 class="footer-title">Namespa</h2>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-map-marker-alt"></i><span>145 Franklin St, Redpoint Eval</span>
+                            </div>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <a href="/cdn-cgi/l/email-protection#b0d9ded6dff0ded1ddd5c3c0d19ed3dfdd">
+                                    <span><span class="__cf_email__"
+                                            data-cfemail="7f161119103f111e121a0c0f1e511c1012">[email&#160;protected]</span></span>
+                                </a>
+                            </div>
+                            <div class="footer-contact-item">
+                                <i class="fas fa-phone-alt"></i>
+                                <a href="tel:+849331235113">+84 933 1235 113</a>
+                            </div>
+                            <ul class="footer-social">
+                                <li class="social-media">
+                                    <a class="social-icon facebook" target="_blank"
+                                        href="https://www.facebook.com/HuynhDieuQuocQuan">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="social-media">
+                                    <a class="social-icon zalo" target="_blank" href="https://zalo.me">
+                                        <i class="fas fa-comment"></i>
+                                    </a>
+                                </li>
+                                <li class="social-media">
+                                    <a class="social-icon instagram" target="_blank" href="https://instagram.com">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Footer Copyright -->
+                    <div class="col-12 footer-copyright">
+                        <p>Copyright © 2025 Namespa. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./vendor/js/jquery-v3.4.1.min.js"></script>
+    <script src="./vendor/js/bootstrap.min.js"></script>
+    <script src="./vendor/js/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./vendor/js/Magnific-Popup-master/jquery.magnific-popup.min.js"></script>
+    <script src="./resource/js/script.js"></script>
+</body>
+
+</html>
